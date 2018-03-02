@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .navbar
+        {
+            margin-bottom: 0px;
+            border-radius: 0px;
+        }
+        .navbar-brand
+        {
+            float: left;
+            padding: 5px 15px;
+        }
+        .text-center
+        {
+            margin: 1% auto;
+        }
+        @media (max-width:600px)
+        {
+            .carousel-caption
+            {
+                display: none;
+            }
+        }
+        footer
+        {
+            width: 100%;
+            padding: 2%;
+            background-color: blue;
+            color: white;
+        }
+        .fa
+        {
+            padding: 10px;
+            font-size: 15px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <a class="navbar-brand" href="#"><img src="./images/AAEAAQAAAAAAAAxhAAAAJGZlZjAzMzJhLTMyMDktNGEzNS1hY2FhLTZkMmE5NWU5MDkwNw.png"></a>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="carousel slide" id="myCarousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="./images/landscape-01.jpg">
+                <div class="carousel-caption">
+                    <h1>
+                        Get Started
+                    </h1>
+                    <button type="btn btn-warning">Click Here</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./images/maxresdefault.jpg">
+            </div>
+            <div class="item">
+                <img src="./images/WEB_AMN_Shining-Cities_Slideshow_Phoenix-01.jpg">
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon left-chevron-glyphicon" aria-hidden="true"></span>
+            <span class="sr-only">previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon right-chevron-glyphicon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="container text-center">
+        <h1>Here are display picture</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="./images/palma1-.jpg">
+                <h4>Image1</h4>
+            </div>
+            <div class="col-md-4">
+                <img src="./images/photography-on-display-at-hvnn-300x200.jpg">
+                <h4>Image3</h4>
+            </div>
+            <div class="col-md-4">
+                <img src="./images/background-blue-peace-free-vectors-d-gradient-renderscool-imageswaves-display-300x200.jpg">
+                <h4>Image3</h4>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1>Apple to discontinue Thunderbolt display</h1>
+                <p class="lead text-justify">
+                    Talk about long in the tooth, Apple's external Thunderbolt displays were last refreshed way back in 2011 and it seems that company has finally decided to pull the plug on the ageing monitor line
+
+                </p>
+                <p class="lead text-justify">
+                    We're discontinuing the Apple Thunderbolt Display, an Apple spokesperson confirmed to The Verge. It will be available through Apple.com, Apple's retail stores, and Apple Authorized Resellers while supplies last. There are a number of great third-party options available for Mac users.
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <img src="./images/thunderboltDisplay.jpg" class="img-responsive">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <h1 class="display-3">
+                    Youtube
+                </h1>
+                <p class="lead text-justify">
+                    YouTube is an American video-sharing website headquartered in San Bruno, California. The service was created by three former PayPal employees—Chad Hurley, Steve Chen, and Jawed Karim—in February 2005.
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <img src="./images/i1P3WC9-_400x400.jpg" width="250" height="350">
+            </div>
+            <div class="col-lg-3">
+                <h1>Gmail</h1>
+                <p class="lead text-justify">
+                    Gmail is a free, advertising-supported email service developed by Google. Users can access Gmail on the web and using third-party programs that synchronize email content through POP or IMAP protocols.
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <img src="./images/download.png">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h2><a href="#hidden" data-toggle="collapse">click here for detail of Yahoo!</a></h2>
+            <div class="collapse" id="hidden">
+                <p class="lead text-justify">
+                    Yahoo! is a web services provider that is wholly owned by Verizon Communications through Oath Inc. and headquartered in Sunnyvale, California.
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid text-center">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Contact us</h3>
+                <br/>
+                <h4>Our address and Contact Information here</h4>
+            </div>
+            <div class="col-md-4">
+                <h3>Connect</h3>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-whatsapp"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
